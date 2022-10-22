@@ -362,5 +362,28 @@ main .container .left .profile {
     color: var(--color-dark)
 }
 /* create post ends */
+/* feeds starts */
+.middle .feeds .feed {
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    margin: 1rem 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
 
+}
+.middle .feed .head{
+    display: flex;
+    justify-content: space-between;
+}
+.middle .feed .user {
+    display: flex;
+    gap: 1rem;
+}
+.middle .feed .photo {
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    margin: 0.7rem 0;
+}
+/* feeds ends */
 /* main ends */
