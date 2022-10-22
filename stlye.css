@@ -417,9 +417,11 @@ main .container .left .profile {
 .middle .liked-by span:first-child {
     margin: 0;
 }
+
 .middle .liked-by p {
     margin-left: 0.5rem;
 }
+
 /* feeds ends */
 /* right starts */
 main .container .right {
@@ -435,12 +437,14 @@ main .container .right {
     padding: var(--card-padding);
     margin-bottom: 1rem;
 }
+
 .right .messages .heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
+
 .right .messages i {
     font-size: 1.4rem;
 }
@@ -481,15 +485,16 @@ main .container .right {
     align-self: start;
 }
 
-.right .message .profile-photo{
+.right .message .profile-photo {
     position: relative;
     overflow: visible;
 }
+
 .right .profile-photo img {
     border-radius: 50%;
 }
 
-.right .messages .message:last-child{
+.right .messages .message:last-child {
     margin: 0;
 }
 
@@ -497,6 +502,7 @@ main .container .right {
     font-size: 0.8rem;
 
 }
+
 .right .messages .message .profile-photo .active {
     width: 0.8rem;
     height: 0.8rem;
@@ -507,6 +513,7 @@ main .container .right {
     bottom: 0;
     right: 0;
 }
+
 /* Friend Requests starts */
 .right .friend-requests {
     margin-top: 1rem;
@@ -523,6 +530,7 @@ main .container .right {
     border-radius: var(--card-border-radius);
     margin-bottom: 0.7rem;
 }
+
 .right .request .info {
     display: flex;
     gap: 1rem;
@@ -533,6 +541,33 @@ main .container .right {
     display: flex;
     gap: 1rem;
 }
+
 /* Friend Requests ends */
 /* right ends */
 /* main ends */
+
+/* Theme starts */
+.customize-theme {
+    background: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 0.9rem;
+}
+.customize-theme .card {
+    background: var(--color-white);
+    padding: 3rem;
+    border-radius: var(--card-border-radius);
+    width: 50%;
+}
+/* font size starts */
+
+/* font size ends */
+
+/* Theme ends */
