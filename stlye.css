@@ -2,15 +2,20 @@
 
 :root {
     --primary-color-hue: 252;
+    --dark-color-lightness: 17%;
+    --light-color-lightness: 95%;
+    --white-color-lightness: 100%;
+
+
     --color-black: hsl(252, 30%, 10%);
-    --color-dark: hsl(252, 30%, 17%);
-    --color-light: hsl(252, 30%, 95%);
-    --color-white: hsl(252, 30%, 100%);
+    --color-dark: hsl(252, 30%, var(--dark-color-lightness));
+    --color-light: hsl(252, 30%, var(--light-color-lightness));
+    --color-white: hsl(252, 30%, var(--white-color-lightness));
     --color-primary: hsl(var(--primary-color-hue), 75%, 60%);
     --color-secondary: hsl(252, 100%, 90%);
     --color-danger: hsl(0, 95%, 65%);
     --color-success: hsl(120, 95%, 65%);
-    --color-gray: hsl(252, 15%, 65%);
+    --color-gray: hsl(var(--primary-color-hue), 15%, 65%);
 
     --boder-radius: 2rem;
     --card-border-radius: 1rem;
